@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Template">
+    <jcr:content
+        cq:lastModified="{Date}2019-09-24T00:15:53.222+08:00"
+        cq:lastModifiedBy="admin"
+        cq:templateType="/conf/AEMDemo13/settings/wcm/template-types/empty-page"
+        jcr:description="PHARMA TEMPLATE"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="pharma-template"
+        status="draft"/>
+</jcr:root>

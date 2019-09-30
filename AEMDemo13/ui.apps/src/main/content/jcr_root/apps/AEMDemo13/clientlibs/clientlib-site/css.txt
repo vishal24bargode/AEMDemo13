@@ -1,0 +1,2 @@
+#base=.
+resources/fonts/icomoon/style.css
