@@ -3,12 +3,14 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[/etc/mobile/groups/responsive]"
-        cq:lastModified="{Date}2019-09-24T00:15:53.222+08:00"
+        cq:lastModified="{Date}2019-10-02T00:11:02.742+08:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/AEMDemo13/settings/wcm/templates/pharma-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="AEMDemo13/components/structure/page">
         <root
+            jcr:lastModified="{Date}2019-10-02T00:09:32.299+08:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <header
@@ -18,10 +20,20 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="AEMDemo13/components/structure/header"/>
-            <footer
-                jcr:created="{Date}2019-09-24T00:15:53.219+08:00"
+            <responsivegrid
+                jcr:created="{Date}2019-10-02T00:10:02.974+08:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2019-09-24T00:15:53.219+08:00"
+                jcr:lastModified="{Date}2019-10-02T00:10:02.974+08:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured"/>
+            </responsivegrid>
+            <footer
+                jcr:created="{Date}2019-10-02T00:11:02.722+08:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-10-02T00:11:02.722+08:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="AEMDemo13/components/structure/footer"/>
