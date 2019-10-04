@@ -30,6 +30,16 @@
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
+                    <policy_14260962545143
+                        jcr:description="AEMDemo13 Component Policy"
+                        jcr:lastModified="{Date}2019-10-04T15:37:15.449+08:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="AEMDemo13 Component Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:AEMDemo13,group:AEMDemo13 Form]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_14260962545143>
                 </responsivegrid>
             </components>
         </foundation>
