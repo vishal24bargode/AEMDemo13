@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d55b97a3-22ce-4de8-b7c5-71e90ab57cda">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="AEMDemo13/images/hero_1.jpg"
+        jcr:lastModified="{Date}2019-10-05T00:06:56.426+08:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-10-05T00:06:54.687+08:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="914214fda955c2f0eb6c4c0913370e51f2e70af5"
+            dam:size="{Long}124721"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}1247"
+            tiff:ImageWidth="{Long}1900"
+            xmp:CreatorTool="Adobe Photoshop CC 2015 (Windows)"
+            xmpMM:DocumentID="xmp.did:F143A2177A5A11E9BA6BEDC47B1AC651"
+            xmpMM:InstanceID="xmp.iid:F143A2167A5A11E9BA6BEDC47B1AC651"
+            xmpMM:OriginalDocumentID="xmp.did:fdde0032-8bbe-c942-a7aa-b47542e890a8">
+            <xmpMM:DerivedFrom
+                jcr:primaryType="nt:unstructured"
+                stRef:documentID="xmp.did:fdde0032-8bbe-c942-a7aa-b47542e890a8"
+                stRef:instanceID="xmp.iid:c9243397-c1c7-884a-a2ef-6d77ccc2d43d"
+                xmpNodeType="xmpStruct"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

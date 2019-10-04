@@ -1,1 +1,16 @@
-<p> Banner Component </p>
+<sly data-sly-use.banner="org.aem.pharma.core.models.BannerModel"/>
+<div class="site-blocks-cover" style="background-image: url('/content/dam/AEMDemo13/images/hero_1.jpg');">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7 mx-auto order-lg-2 align-self-center">
+				<div class="site-block-cover-content text-center">
+					<h2 class="sub-title">${banner.bannerText}</h2>
+					<h1>${banner.bannerDescription}</h1>
+					<p>
+						<a href="#" class="btn btn-primary px-5 py-3">${banner.buttonLabel}</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
