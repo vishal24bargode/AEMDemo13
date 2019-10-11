@@ -8,6 +8,7 @@ import javax.annotation.PostConstruct;
 import javax.inject.Named;
 
 import org.aem.pharma.core.models.CardModel;
+import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.models.annotations.Default;
 import org.apache.sling.models.annotations.DefaultInjectionStrategy;
@@ -15,7 +16,7 @@ import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.ChildResource;
 
 
-@Model(adaptables = Resource.class, resourceType = {"AEMDemo13/components/content/card"}, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
+@Model(adaptables = SlingHttpServletRequest.class, resourceType = {"AEMDemo13/components/content/card"}, defaultInjectionStrategy = DefaultInjectionStrategy.OPTIONAL)
 public class CardController {
 	
 	@ChildResource

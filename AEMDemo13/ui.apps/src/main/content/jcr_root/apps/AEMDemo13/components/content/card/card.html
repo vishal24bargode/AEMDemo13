@@ -1,8 +1,17 @@
-
+<sly data-sly-use.card="org.aem.pharma.core.controller.CardController"/>
 <div class="site-section">
 	<div class="container">
         <div class="row align-items-stretch section-overlap">
-			CARD COmponent
+        	<sly data-sly-list="${card.cardModels}">
+	        	<div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+	            	<div class="banner-wrap h-100 ${item.cssClass @ context='styleString'}">
+						<a href="#" class="h-100">
+			                <h5>${item.heading}</h5>
+			                <p>${item.description}</p>
+			            </a>
+					</div>
+	    		</div>
+    		</sly>
 		</div>
     </div>
 </div>
