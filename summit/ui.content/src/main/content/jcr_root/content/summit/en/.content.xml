@@ -136,5 +136,7 @@
                     sling:resourceType="summit/components/content/sharing"/>
             </responsivegrid>
         </root>
+        <image/>
     </jcr:content>
+    <home/>
 </jcr:root>
