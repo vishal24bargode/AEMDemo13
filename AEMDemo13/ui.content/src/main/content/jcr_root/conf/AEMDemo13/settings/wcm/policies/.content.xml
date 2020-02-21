@@ -27,6 +27,10 @@
                             </assetToComponentMapping>
                         </cq:authoring>
                         <jcr:content
+                            cq:lastReplicated="{Date}2020-02-19T22:57:18.019+08:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
@@ -38,7 +42,12 @@
                         jcr:title="AEMDemo13 Component Policy"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[group:AEMDemo13,group:AEMDemo13 Form]">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2020-02-19T22:57:18.019+08:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_14260962545143>
                 </responsivegrid>
             </components>
@@ -66,7 +75,12 @@
                         jcr:primaryType="nt:unstructured"
                         jcr:title="pharma-template"
                         sling:resourceType="wcm/core/components/policy/policy">
-                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <jcr:content
+                            cq:lastReplicated="{Date}2020-02-19T22:57:18.019+08:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
                     </policy_1569255981299>
                 </page>
             </structure>

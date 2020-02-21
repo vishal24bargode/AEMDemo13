@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:mixinTypes="[mix:referenceable]"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
     jcr:primaryType="dam:Asset"
     jcr:uuid="77c04f50-7937-453c-b98b-09cd22307739">
     <jcr:content
+        cq:name="product_05.png"
+        cq:parentPath="/content/dam/AEMDemo13/images"
         dam:assetState="processed"
         dam:relativePath="AEMDemo13/images/product_05.png"
-        jcr:lastModified="{Date}2019-10-05T00:07:01.095+08:00"
+        jcr:lastModified="{Date}2020-01-28T17:36:09.012+08:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}32"
             dam:Comments="Software: Adobe ImageReady&#xa;XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?> &lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        &quot;> &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;> &lt;rdf:Description rdf:about=&quot;&quot; xmlns:xmp=&quot;http://ns.adobe.com/xap/1.0/&quot; xmlns:xmpMM=&quot;http://ns.adobe.com/xap/1.0/mm/&quot; xmlns:stRef=&quot;http://ns.adobe.com/xap/1.0/sType/ResourceRef#&quot; xmp:CreatorTool=&quot;Adobe Photoshop CS6 (Macintosh)&quot; xmpMM:InstanceID=&quot;xmp.iid:F143A20E7A5A11E9BA6BEDC47B1AC651&quot; xmpMM:DocumentID=&quot;xmp.did:F143A20F7A5A11E9BA6BEDC47B1AC651&quot;> &lt;xmpMM:DerivedFrom stRef:instanceID=&quot;xmp.iid:D53358FB7A5A11E9BA6BEDC47B1AC651&quot; stRef:documentID=&quot;xmp.did:D53358FC7A5A11E9BA6BEDC47B1AC651&quot;/> &lt;/rdf:Description> &lt;/rdf:RDF> &lt;/x:xmpmeta> &lt;?xpacket end=&quot;r&quot;?>&#xa;"
-            dam:extracted="{Date}2019-10-05T00:07:00.351+08:00"
+            dam:extracted="{Date}2020-01-28T17:35:46.273+08:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
@@ -22,9 +25,12 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="ea7f40253f9044937c85cfd530387fe1d22eb8e2"
+            dam:sha1="b9628741d17f61608ceeba74a03da9c3e76d2722"
             dam:size="{Long}58017"
             dc:format="image/png"
+            dc:modified="{Date}2020-01-28T17:36:08.432+08:00"
+            jcr:lastModified="{Date}2020-01-28T17:36:08.430+08:00"
+            jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}370"
