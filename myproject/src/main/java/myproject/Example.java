@@ -1,5 +1,7 @@
 package myproject;
 
+import java.util.Date;
+
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
 import org.springframework.web.bind.annotation.*;
@@ -10,7 +12,8 @@ public class Example {
 
 	@RequestMapping("/")
 	String home() {
-		return "Spring Application! 123";
+		Date date = new Date();
+		return "Spring Application! [Date="+date.toString()+"]";
 	}
 	
 	public static void main(String[] args) {
